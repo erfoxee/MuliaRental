@@ -25,7 +25,7 @@ class Home extends BaseController
             'rusak' => $rusak,
             'kembali' => $kembali
         ];
-        return view('user/beranda', $data);
+        return view('beranda', $data);
     }
 
     public function showChartTransaksi()
